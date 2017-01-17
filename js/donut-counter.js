@@ -9,9 +9,10 @@ var donuts = parseInt(prompt("How many donuts do you have?"))
 //write a conditional to check if there are enough donuts
 
   //alert the user with a message telling them the numbers of donuts and guests, and if there are enough donuts for each guest.
+var extra_guests = guests - donuts
 
 if (guests > donuts){
-  alert("You have ${guests} and ${donuts}. You need more donuts!")
+  alert("There are " + extra_guests + " more guests than donuts. You need more donuts!")
 }
 else {
   alert("You have enough donuts.")
